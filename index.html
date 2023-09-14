@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Photo Gallery</title>
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+    <h1>FASHION</h1>
+    <div class="tab-container">
+        <button class="tablink" onclick="openTab(event, 'tab1')">1 Fact</button>
+        <button class="tablink" onclick="openTab(event, 'tab2')">2 Fact</button>
+        <button class="tablink" onclick="openTab(event, 'tab3')">3 Fact</button>
+    </div>
+    <div id="tab1" class="tabcontent">
+        <div class="photo-container">
+            <img src="app/images/img-1.jpg" alt="Photo 1">
+            <p class="caption">The Average Person Only Wears 20% of Their Clothes 80% of the Time</p>
+        </div>
+    </div>
+    <div id="tab2" class="tabcontent">
+        <div class="photo-container">
+            <img src="app/images/img-2.jpg" alt="Photo 2">
+            <p class="caption">Fast Fashion Companies Generate More Pollution Than International Aviation and Shipping Combined</p>
+        </div>
+    </div>
+    <div id="tab3" class="tabcontent">
+        <div class="photo-container">
+            <img src="app/images/img-3.jpg" alt="Photo 3">
+            <p class="caption">80% of Apparel is Made by Young Women Between the Ages of 18 and 24</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
